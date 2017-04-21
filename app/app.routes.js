@@ -9,4 +9,5 @@ function config($routeProvider) {
         templateUrl : './home/home.html',
         controller : 'AppController'
     });
+
 };

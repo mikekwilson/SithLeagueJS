@@ -8,9 +8,11 @@
   <!-- Font used by Angualr Material -->
   <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Roboto:400,700'>
 
-  <!-- Angular Material stylesheet -->
-  <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/angular_material/1.1.0/angular-material.min.css">
-  
+  <!-- css files from bower packages -->
+  <link rel="stylesheet" href="css/vendor.css">
+
+  <!-- Angular Material stylesheet CDN link
+  <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/angular_material/1.1.0/angular-material.min.css"> -->
 </head>
 
 <body ng-cloak>
@@ -30,16 +32,22 @@
     <div ng-view></div>
   </md-content>
   <!-- END Main Content -->
- 
-  <!-- AngularJS libraries -->
+
+  <!-- CDN imports for production build 
+    AngularJS libraries CDN
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.3/angular.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.3/angular-route.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.3/angular-animate.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.3/angular-aria.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.3/angular-messages.min.js"></script>
 
-  <!-- Angular Material Library -->
+    Angular Material Library
   <script src="http://ajax.googleapis.com/ajax/libs/angular_material/1.1.0/angular-material.min.js"></script>
+    -->
+  
+  <!-- DEV Script -->
+  <script src="js/vendor.js"></script>
+
 
   <!-- App libraries -->
   <script src="app.js"></script>

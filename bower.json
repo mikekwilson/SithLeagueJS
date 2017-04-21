@@ -1,0 +1,8 @@
+{
+  "name": "sithleaguejs",
+  "dependencies": {
+    "angular": "^1.6.4",
+    "angular-route": "^1.6.4",
+    "angular-material": "^1.1.3"
+  }
+}
